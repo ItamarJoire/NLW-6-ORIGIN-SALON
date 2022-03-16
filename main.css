@@ -18,6 +18,10 @@
   --body-color: hsl(0 0% 98%);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: 400 1rem 'DM Sans', sans-serif;
   color: var(--text-color);
@@ -25,7 +29,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1 {
+ul {
+  list-style: none;
+}
+
+.title {
   font: 700 1.875rem 'Poppins', sans-serif;
   color: var(--title-color);
   -webkit-font-smoothing: auto;

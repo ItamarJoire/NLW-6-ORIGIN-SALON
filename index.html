@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
+
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +20,18 @@
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">beaulty<span>salon</span>.</a>
-        <div class="menu">...</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -32,7 +45,7 @@
             />
           </div>
           <div class="text">
-            <h1>Saúde natural para os seus cabelos</h1>
+            <h2 class="title">Saúde natural para os seus cabelos</h2>
             <p>
               Um salão exclusivo em São Paulo, especializado em tratamentos
               naturais.
@@ -44,11 +57,91 @@
 
       <div class="divider-1"></div>
 
-      <section class="section">
-        <div class="container">jkk</div>
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+              alt="3 mulheres com sorrindo"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus beatae ea quae velit reiciendis dicta, maxime rerum, et
+              nulla illum eius facilis obcaecati minima laboriosam. Nam corrupti
+              illo nisi laboriosam?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veniam
+              ratione consequatur enim voluptates dolorum vero, architecto ipsa
+              expedita repellat tempora excepturi, non nemo et vitae, incidunt
+              vel eos. Perspiciatis.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              vitae laboriosam nam et quos, necessitatibus blanditiis libero
+              nobis iure dolores, reprehenderit sunt ullam dolor corporis
+              officia ducimus, nesciunt explicabo consequuntur?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container gird">
+          <header>
+            <h2 class="title">Serviços</h2>
+
+            <p>
+              Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
+                incidunt magni odio vitae eligendi a et assumenda ipsam
+                excepturi exercitationem sit quidem, sint corporis eaque
+                voluptates repellat maxime, rem dolor.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+                fugit praesentium est sint officia adipisci amet, dicta tempora
+                doloribus architecto itaque expedita quis soluta aliquam atque
+                illo repellat recusandae voluptas?
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                doloremque atque laborum sapiente cumque quam nesciunt totam,
+                est natus expedita? Amet saepe pariatur recusandae repellendus
+                beatae nam in tempora doloribus.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer></footer>
+
+    <script src="./main.js"></script>
   </body>
 </html>

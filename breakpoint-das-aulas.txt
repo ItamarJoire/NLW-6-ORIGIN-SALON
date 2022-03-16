@@ -1,3 +1,8 @@
 Aula 01: 
   Codando a primeira parte de layout - 40:00:00
   Unidade de medida - 01:07:45
+
+Aula 02: 
+  Estilizando menu - 00:17:10
+  Pack de ícones - 00:39:55
+  Entrando no open e close do menu com js - 00:56:15
