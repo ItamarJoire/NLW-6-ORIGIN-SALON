@@ -6,3 +6,8 @@ Aula 02:
   Estilizando menu - 00:17:10
   Pack de ícones - 00:39:55
   Entrando no open e close do menu com js - 00:56:15
+
+Aula 03: 
+  randomuser.me (site para pegar fotos de pessoas) - 00:14:35
+  CRIANDO CARROSSEL (biblioteca Swiper - https://swiperjs.com/) - 00:34:30
+  ANIMAÇÃO QUANDO ROLAR A PÁGINA (scrollreveal - https://scrollrevealjs.org/) - 01:07:00
