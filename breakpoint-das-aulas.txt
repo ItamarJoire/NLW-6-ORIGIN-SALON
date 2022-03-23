@@ -11,3 +11,6 @@ Aula 03:
   randomuser.me (site para pegar fotos de pessoas) - 00:14:35
   CRIANDO CARROSSEL (biblioteca Swiper - https://swiperjs.com/) - 00:34:30
   ANIMAÇÃO QUANDO ROLAR A PÁGINA (scrollreveal - https://scrollrevealjs.org/) - 01:07:00
+
+Aula 04:  
+  Introdução as Media Queries: 00:50:00
