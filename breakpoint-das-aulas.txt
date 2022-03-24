@@ -14,3 +14,7 @@ Aula 03:
 
 Aula 04:  
   Introdução as Media Queries: 00:50:00
+
+Aula 05:
+  Ajustando o carrossel para o desktop no js: 00:46:00
+  Link ativo: 00:56:40
